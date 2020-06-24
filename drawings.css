@@ -1,3 +1,89 @@
-#test {
-  background-color: red;
+.cat-container {
+  position: absolute;
+  top: 250px;
+  left: 300px;
 }
+
+.cat-head {
+  background-color: gray;
+  border: 8px solid black;
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  border-radius: 200px;
+  z-index: 1;
+}
+
+.cat-left-eye {
+  background-color: white;
+  width: 100px;
+  height: 60px;
+  position: relative;
+  top: 100px;
+  left: 40px;
+  z-index: 2;
+  border-radius: 50px;
+}
+
+.cat-left-iris {
+  z-index: 3;
+  background-color: yellow;
+  width: 44px;
+  height: 60px;
+  border-radius: 20px; 
+  position: relative;
+  left: 28px; 
+}
+
+.cat-left-pupil {
+  background-color: black;
+  width: 10px;
+  height: 60px;
+  z-index: 4;
+  border-radius: 10px;
+  position: relative;
+  left: 17px;
+}
+
+.cat-nose {
+  background-color: deeppink;
+  border: 3px solid black;
+  width: 60px;
+  height: 60px;
+  border-radius: 50px;
+  z-index: 2;
+  position: relative;
+  top: 110px;
+  left: 125px;
+}
+
+/* .cat-right-eye {
+  background-color: white;
+  width: 100px;
+  height: 60px;
+  position: relative;
+  top: 100px;
+  right: 45px;
+  z-index: 2;
+  border-radius: 50px;
+}
+
+.cat-right-iris {
+  z-index: 3;
+  background-color: yellow;
+  width: 44px;
+  height: 60px;
+  border-radius: 20px; 
+  position: relative;
+  right: 28px; 
+}
+
+.cat-right-pupil {
+  background-color: black;
+  width: 10px;
+  height: 60px;
+  z-index: 4;
+  border-radius: 10px;
+  position: relative;
+  right: 17px;
+} */
