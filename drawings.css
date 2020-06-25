@@ -49,9 +49,9 @@
   border: 3px solid black;
   position: relative;
   top: 60px;
-  left: 38px;
-  width: 225px;
-  height: 100px;
+  left: 62px;
+  width: 175px;
+  height: 95px;
   border-radius: 250px;
   z-index: 2;
 }
@@ -65,7 +65,7 @@
   z-index: 3;
   position: relative;
   top: 3px;
-  left: 93px;
+  left: 70px;
 }
 
 .cat-pupil {
