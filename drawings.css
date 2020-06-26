@@ -1,11 +1,11 @@
 .cat-container {
-  position: absolute;
   top: 250px;
+  position: absolute;
   left: 300px;
 }
 
 .cat-eye {
-  margin: 20px;
+  margin: 20px 30px;
   background-color: white;
   width: 75px;
   height: 50px;
@@ -13,6 +13,7 @@
   z-index: 2;
   border-radius: 50px;
   border: 1px solid black;
+  transform: rotate(15deg);
 }
 
 .cat-eyes-container {
@@ -20,7 +21,7 @@
   flex-flow: row;
   position: relative;
   top: 62px;
-  left: 36px;
+  left: 18px;
 }
 
 .cat-head {
@@ -73,7 +74,11 @@
   width: 9px;
   height: 50px;
   z-index: 4;
-  border-radius: 5px;
+  border-radius: 100%;
   position: relative;
   left: 17px;
+}
+
+.cat-right-eye {
+  transform: rotate(-15deg);
 }
