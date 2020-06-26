@@ -7,20 +7,20 @@
 .cat-eye {
   margin: 20px;
   background-color: white;
-  width: 100px;
-  height: 60px;
+  width: 75px;
+  height: 50px;
   position: relative;
-  z-index: 2; 
+  z-index: 2;
   border-radius: 50px;
   border: 1px solid black;
 }
 
-.cat-eyes {
+.cat-eyes-container {
   display: flex;
   flex-flow: row;
   position: relative;
-  top: 50px;
-  left: 13px;
+  top: 62px;
+  left: 36px;
 }
 
 .cat-head {
@@ -37,10 +37,10 @@
   z-index: 3;
   background-color: yellow;
   width: 44px;
-  height: 60px;
+  height: 50px;
   border-radius: 20px;
   position: relative;
-  left: 28px;
+  left: 15px;
   border: 1px solid black;
 }
 
@@ -48,10 +48,10 @@
   background-color: white;
   border: 3px solid black;
   position: relative;
-  top: 60px;
-  left: 62px;
-  width: 175px;
-  height: 95px;
+  top: 75px;
+  left: 70px;
+  width: 160px;
+  height: 80px;
   border-radius: 250px;
   z-index: 2;
 }
@@ -64,16 +64,16 @@
   border-radius: 50px;
   z-index: 3;
   position: relative;
-  top: 3px;
-  left: 70px;
+  top: -10px;
+  left: 62px;
 }
 
 .cat-pupil {
   background-color: black;
-  width: 10px;
-  height: 60px;
+  width: 9px;
+  height: 50px;
   z-index: 4;
-  border-radius: 10px;
+  border-radius: 5px;
   position: relative;
   left: 17px;
 }
