@@ -13,14 +13,14 @@
   z-index: 2;
   border-radius: 50px;
   border: 1px solid black;
-  transform: rotate(15deg);
+  transform: rotate(8deg);
 }
 
 .cat-eyes-container {
   display: flex;
   flex-flow: row;
   position: relative;
-  top: 62px;
+  top: 70px;
   left: 18px;
 }
 
@@ -80,5 +80,5 @@
 }
 
 .cat-right-eye {
-  transform: rotate(-15deg);
+  transform: rotate(-8deg);
 }
