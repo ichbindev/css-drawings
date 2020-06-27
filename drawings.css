@@ -58,6 +58,18 @@
 }
 
 .cat-nose {
+  width: 0;
+  height: 0;
+  border-left: 30px solid transparent;
+  border-right: 25px solid transparent;
+  border-top: 30px solid deeppink;
+  position: relative;
+  left: 55px;
+  top: -5px;
+  z-index: 4;
+}
+
+.cat-nose-circle {
   background-color: deeppink;
   border: 3px solid black;
   width: 35px;
