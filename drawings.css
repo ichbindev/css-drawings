@@ -7,19 +7,18 @@
 .cat-ear {
   width: 0;
   height: 0;
-  border-left: 75px solid transparent;
-  border-right: 75px solid transparent;
+  border-left: 65px solid transparent;
+  border-right: 65px solid transparent;
   border-bottom: 150px solid gray;
   transform: rotate(30deg);
   position: relative;
   top: -100px;
-  right: -40px; 
+  right: -70px; 
 }
 
 .cat-ear-left {
   transform: rotate(-30deg);
-  top: -100px;
-  left: -40px;
+  left: -30px;
 }
 
 .cat-ears {
@@ -66,18 +65,12 @@
 .cat-inner-ear {
   width: 0;
   height: 0;
-  border-left: 60px solid transparent;
-  border-right: 60px solid transparent;
-  border-bottom: 130px solid deeppink;
+  border-left: 30px solid transparent;
+  border-right: 30px solid transparent;
+  border-bottom: 100px solid deeppink;
   position: relative;
-  top: 10px;
-  right: 60px; 
-}
-
-.cat-left-inner-ear {
-  transform: rotate(0deg);
-  top: 10px;
-  left: -60px;
+  top: 20px;
+  right: 30px; 
 }
 
 .cat-iris {
@@ -89,6 +82,33 @@
   position: relative;
   left: 15px;
   border: 1px solid black;
+}
+
+.cat-left-inner-ear {
+  transform: rotate(0deg);
+  top: 10px;
+  left: -30px;
+}
+
+.cat-lip {
+  width: 20px;
+  height: 3px;
+  background-color: black;
+  transform: rotate(35deg);
+}
+
+.cat-lip-left {
+  transform: rotate(-35deg);
+  position: relative;
+  left: 1px;
+}
+
+.cat-lower-lip {
+  display: flex;
+  flex-flow: row wrap;
+  position: relative;
+  left: 62px;
+  top: 2px;
 }
 
 .cat-muzzle {
@@ -140,4 +160,12 @@
 
 .cat-right-eye {
   transform: rotate(-8deg);
+}
+
+.cat-upper-lip {
+  width: 3px;
+  height: 25px;
+  background-color: black;
+  position: relative;
+  left: 81px;
 }
